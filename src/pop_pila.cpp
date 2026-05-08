@@ -1,11 +1,12 @@
 #include "pila.h"
 #include <iostream>
+using namespace std;
 
-void pop_pila(std::stack<int>& pila) {
+void pop_pila(stack<int>& pila) {
     if (pila.empty()) {
-        std::cout << "[PILA] Error: la pila esta vacia, no se puede eliminar.\n";
+        cout << "[PILA] Error: la pila esta vacia, no se puede eliminar.\n";
         return;
     }
-    std::cout << "[PILA] Elemento " << pila.top() << " eliminado del tope.\n";
+    cout << "[PILA] Elemento " << pila.top() << " eliminado del tope.\n";
     pila.pop();
 }

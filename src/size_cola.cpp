@@ -1,5 +1,6 @@
 #include "cola.h"
+using namespace std;
 
-int size_cola(const std::queue<int>& cola) {
+int size_cola(const queue<int>& cola) {
     return static_cast<int>(cola.size());
 }
