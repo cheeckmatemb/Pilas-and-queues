@@ -14,11 +14,11 @@ int main() {
 
     do {
         std::cout << "\n=============================\n";
-        std::cout << "      MENU PRINCIPAL          \n";
+        std::cout << "      MENU PRINCIPAL         \n";
         std::cout << "=============================\n";
-        std::cout << "  1. Operaciones con Pila     \n";
-        std::cout << "  2. Operaciones con Cola     \n";
-        std::cout << "  0. Salir                    \n";
+        std::cout << "  1. Operaciones con Pila    \n";
+        std::cout << "  2. Operaciones con Cola    \n";
+        std::cout << "  0. Salir                   \n";
         std::cout << "=============================\n";
         std::cout << "Seleccione una opcion: ";
         std::cin >> opcion;
