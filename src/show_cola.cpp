@@ -1,15 +1,16 @@
 #include "cola.h"
 #include <iostream>
+using namespace std;
 
-void show_cola(std::queue<int> cola) {
+void show_cola(queue<int> cola) {
     if (cola.empty()) {
-        std::cout << "[COLA] La cola esta vacia.\n";
+        cout << "[COLA] La cola esta vacia.\n";
         return;
     }
-    std::cout << "[COLA] Contenido (frente -> final):\n";
+    cout << "[COLA] Contenido (frente -> final):\n";
     int pos = 1;
     while (!cola.empty()) {
-        std::cout << "  [" << pos++ << "] " << cola.front() << "\n";
+        cout << "  [" << pos++ << "] " << cola.front() << "\n";
         cola.pop();
     }
 }

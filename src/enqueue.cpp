@@ -1,7 +1,8 @@
 #include "cola.h"
 #include <iostream>
+using namespace std;
 
-void enqueue(std::queue<int>& cola, int valor) {
+void enqueue(queue<int>& cola, int valor) {
     cola.push(valor);
-    std::cout << "[COLA] Elemento " << valor << " agregado al final.\n";
+    cout << "[COLA] Elemento " << valor << " agregado al final.\n";
 }
